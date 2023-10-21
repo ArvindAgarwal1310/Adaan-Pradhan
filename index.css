@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+  background-color: #111;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+nav{
+  overflow: hidden;
+    background-color:#222;
+    padding: 8px 20px;
+    position:relative;
+    border-radius: 2%;
+}
+nav a{
+  float: left;
+    color: wheat;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration:solid;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 10px;
+}
+nav a.active{
+  background-color: #111;
+  /*box-shadow: 2px 2px 0px 0px rgba(246, 194, 98),0px 0px 2px 2px rgba(246, 194, 98);*/
+  color: wheat;
+  font-weight: bold;
+}
+nav :hover{
+    color: rgba(246, 194, 98);
+    border-radius:6px ;
+    box-shadow: 2px 2px 0px 0px rgba(246, 194, 98),0px 0px 2px 2px rgba(246, 194, 98);
+}
+.ryt{
+  float: right;
+}
+.midd{
+  margin-top: 5%;
+  display:grid;
+  border-radius: 2%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #222;
+  width:60%;
+  box-shadow: 2px 2px 0px 0px rgba(246, 194, 98),0px 0px 2px 2px rgba(246, 194, 98);
+}
+.midd1{
+  display:flex;
+  text-align: center;
+  width: 100%;
+}
+.Text_in{
+  float: right;
+  width: 50%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  background-color: #111;
+  border-color: rgba(246, 194, 98);
+  text-align: center;
+  color: rgba(246, 194, 98);
+  font-size: large;
+  border-radius: 6%;
+}
+.Text_in input{
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  float: center;
+  width: 80%;
+  border-radius: 2%;
+  background: #222;
+  color: rgba(246, 194, 98);
+  align-self: center;
+}
+.Text_in input:hover{
+  border-color: rgba(246, 194, 98);
+}
+
+.IMG{
+  width: 80%;
+  box-shadow: 10px 10px 0px 0px #222,0px 0px 10px 10px #222;
+
+}
+.header{
+  
+  font-size:30px;font-weight: 100; color: rgba(246, 194, 98);font-family: 'Courier New', monospace; width: 100%;flex-direction: row;text-align: center;float:inline-start;
+}
+.About_sty{
+  margin-top: 20%;color: rgba(246, 194, 98) ;flex-direction: row;
+}
+.Con{
+  color: wheat;
+}
+.Results_Sort{
+  display:inline-flex;
+  width: 100%;
+  margin-top: 5%;
+  background-color: #111;
+
+}
+.Sortt{
+  background-color: #111;
+  width: 100%;
+  color: rgba(246, 194, 98);
+  border-right: 12%;
+}
+.V_line{
+  background-color: rgba(246, 194, 98);
+  width: 0.3%;
+}
+.Result{
+  background-color: #111;
+  width: 100%;
+}
+.Card{
+  color: rgba(246, 194, 98);
+}
+.Card_Inn{
+
+  height: 25%;
+  display:inline-flex;
+  margin-left: 3%;
+  width: 95%;
+  background-color: #222;
+}
+.Card_Inn:hover{
+  height: 30%;
+}
+.Card_Inn h3{
+  margin-top:0.3%;
+  color:rgba(246, 194, 98);
+  float:left;
+  margin-left: 3px;
+}
+.Card_Inn h5{
+  margin-top:0.3%;
+  float: right;
+  margin-right: 0%;
+  width: 40%;
+  text-align: right;
+  height: max-content;
+  color:rgba(246, 194, 98);
+  font-size: 100%;
+}
+form{
+  display: ruby-base-container;
+  float: center;
+  width: 100%;
+  align-items: center;
+  width: 100%;
+}
+.label_des{
+  color: rgb(250, 200, 109);
+}
+.dis{
+  margin-top: 1%;
+  background-color: #222;
+  float: right;
+  width: 50%;
+  font-size: 30px;
+}
+
+
+form.Search_bar input {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  float: center;
+  width: 50%;
+  border-radius: 2%;
+  background: #222;
+  color: rgba(246, 194, 98);
+  align-self: center;
+}form.Search_bar input:hover {
+  border-color:rgba(246, 194, 98) ;
+}
+.button_lo{
+  color: #111;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  font-size: medium;
+  width: 14%;
+  background-color:rgb(255, 166, 0);
+  text-align: center;
+  height:50%;
+  border-radius: 10%;
+  border-color: rgb(239, 181, 74);
+  border-width: 5%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
